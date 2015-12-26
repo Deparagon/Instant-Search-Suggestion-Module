@@ -1,0 +1,121 @@
+
+/**
+ * DESCRIPTION.
+ *
+ * Highly Customizable Instant category search 
+ * Powerful search feature that extends the default prestashop search.
+ *
+ *  @author    Paragon Kingsley
+ *  @copyright 2015 Paragon Kingsley
+ *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License ("AFL") v. 3.0
+ */
+#search_block_top {
+  padding-top: 50px; 
+ }
+
+/* INPUT GROUP DIV */
+.da-group-input {
+}
+
+
+/* INPUT GROUP ADDON */
+.listaddonsel {
+	background:yellowgreen;
+	border:none;
+
+}
+
+/* SELECT */
+.tscatelist {
+	background:yellowgreen;
+	border:1px solid yellowgreen;
+	width:40px;
+	color:#fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /*background: url(../img/arrow.png) bottom 5px right 0px;*/
+  /*background-repeat: no-repeat;*/
+}
+.tscatelist::-ms-expand {
+    display: none;
+}
+.tscatelist:focus{
+	border:none;
+}
+.tscatelist:after {
+	color:#fff;
+	background:#fff;
+}
+.tscatelist option {
+background:yellowgreen;
+border:1px solid yellowgreen;
+color:#fff;
+}
+
+/* SEARCH INPUT */
+.searchbox {
+	min-height: 40px;
+	border:1px solid yellowgreen;
+}
+
+.searchbox:hover, .searchbox:focus {
+	box-shadow: none;
+	border: 1px solid yellowgreen;
+}
+/* SEARCH BUTTON */
+.searchbtn {
+	min-height: 40px;
+	background:yellowgreen;
+	color:#fff;
+	border:1px solid yellowgreen;
+}
+.searchbtn:hover, .searchbtn:focus {
+	background:yellowgreen;
+	color:#fff;
+}
+
+
+/*    HOLDER CONTAINER      */
+#displayajaxsearchresult {
+/*	width:250px;*/
+	position: absolute;
+	z-index: 2;
+
+}
+
+.imagebo {
+	border-top:1px solid yellowgreen;
+	border-right:1px solid yellowgreen;
+	border-left:1px solid yellowgreen;
+}
+div.imagebo:last{
+	border-bottom:1px solid yellowgreen;
+}
+#product-box {
+max-width: 96%;
+}
+.product-name {
+text-align: center;
+font-weight: bolder;
+}
+
+.product-price {
+	text-align: center;
+	font-weight: bolder;
+}
+
+.cart-box {
+	text-align: center;
+
+}
+img.p-box-img {
+	/*width:242px;*/
+	width:100%;
+	height: 200px;
+}
+
+.product-name a, .product-name a:hover, .product-name a:visited{
+color: yellowgreen;
+}
+/*   THE PRODUCT LIST */

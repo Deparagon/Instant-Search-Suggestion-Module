@@ -1,0 +1,97 @@
+
+/**
+ * DESCRIPTION.
+ *
+ * Highly Customizable Instant category search 
+ * Powerful search feature that extends the default prestashop search.
+ *
+ *  @author    Paragon Kingsley
+ *  @copyright 2015 Paragon Kingsley
+ *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License ("AFL") v. 3.0
+ */
+#search_block_top {
+  padding-top: 50px; 
+ }
+
+/* INPUT GROUP DIV */
+.da-group-input {
+}
+
+
+/* INPUT GROUP ADDON */
+.listaddonsel {
+	background:#fff;
+	border:none;
+
+}
+
+/* SELECT */
+.tscatelist {
+	background:#fff;
+	border:none;
+	width:20px;
+}
+
+.tscatelist option {
+background:#fff;
+border:none;
+}
+
+/* SEARCH INPUT */
+.searchbox {
+	min-height: 40px;
+	border:none;
+}
+
+.searchbox:hover {
+	border:none;
+	box-shadow: none;
+	border-bottom: 1px solid #333;
+}
+.searchbox:focus {
+	border:none;
+	box-shadow: none;
+	border-bottom: 1px solid #333;
+}
+/* SEARCH BUTTON */
+.searchbtn {
+	min-height: 40px;
+	background:#fff;
+	color:#333;
+	border:none;
+}
+.searchbtn:hover, .searchbtn:focus {
+	background:#fff;
+}
+
+
+/*    HOLDER CONTAINER      */
+#displayajaxsearchresult {
+	width:250px;
+	position: absolute;
+	z-index: 2;
+
+}
+.product-box {
+
+}
+.product-name {
+text-align: center;
+font-weight: bolder;
+}
+
+.product-price {
+	text-align: center;
+	font-weight: bolder;
+}
+
+.cart-box {
+	text-align: center;
+
+}
+img.p-box-img {
+	width:242px;
+	height: 200px;
+}
+
+/*   THE PRODUCT LIST */

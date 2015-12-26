@@ -1,0 +1,19 @@
+
+
+/**
+ * DESCRIPTION.
+ *
+ * Highly Customizable Instant category search 
+ * Powerful search feature that extends the default prestashop search.
+ *
+ *  @author    Paragon Kingsley
+ *  @copyright 2015 Paragon Kingsley
+ *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License ("AFL") v. 3.0
+ */
+.bootstrap .panel-default > .panel-heading {
+	background:none;
+}
+
+.panel-heading h4 {
+	padding-top: 15px;	
+}
